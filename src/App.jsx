@@ -15,9 +15,8 @@ function App() {
       <div className="container">
         <div className="w-full relative">
           <img
-            style={{ objectPosition: "0px 32%" }}
             src={coverImage}
-            className="w-full h-full max-h-[360px] object-cover rounded-b-lg"
+            className="w-full h-full max-h-[360px] object-cover object-top rounded-b-lg"
           />
 
           <img
