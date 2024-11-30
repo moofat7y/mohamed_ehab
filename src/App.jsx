@@ -15,6 +15,7 @@ function App() {
       <div className="container">
         <div className="w-full relative">
           <img
+            loading="eager"
             src={coverImage}
             className="w-full h-full max-h-[360px] object-cover object-top rounded-b-lg"
           />
